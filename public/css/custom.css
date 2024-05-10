@@ -1,0 +1,9 @@
+.aboutlogo-container {
+  position: relative;
+  top: -400px;
+  left: 800px;
+}
+
+.aboutlogo {
+  width: 400px;
+}
