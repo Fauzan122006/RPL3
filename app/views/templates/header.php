@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= $data['judul']; ?></title>
-    <link rel="stylesheet" href="<?= BASEURL; ?>/public/css/bootstrap.css">
+    <link rel="stylesheet" href="<?= BASEURL; ?>/css/bootstrap.css">
 </head>
 
 <body>
@@ -20,15 +20,14 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="<?= BASEURL; ?>">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">daftar siswa</a>
+                        <a class="nav-link" href="<?= BASEURL; ?>/daftarsiswa">daftar siswa</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">about</a>
+                        <a class="nav-link" href="<?= BASEURL; ?>/about">about</a>
                     </li>
-
                 </ul>
             </div>
         </div>
